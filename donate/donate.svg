@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="50%" style="stop-color:#16213e"/>
+      <stop offset="100%" style="stop-color:#0f3460"/>
+    </linearGradient>
+    <linearGradient id="btc" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f7931a"/>
+      <stop offset="100%" style="stop-color:#f7931a"/>
+    </linearGradient>
+    <linearGradient id="ton" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0088cc"/>
+      <stop offset="100%" style="stop-color:#00a8e8"/>
+    </linearGradient>
+    <linearGradient id="usdt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#26a17b"/>
+      <stop offset="100%" style="stop-color:#2ecc71"/>
+    </linearGradient>
+    <linearGradient id="tron" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ef4135"/>
+      <stop offset="100%" style="stop-color:#ff6b6b"/>
+    </linearGradient>
+    <linearGradient id="eth" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#627eea"/>
+      <stop offset="100%" style="stop-color:#8b9ef5"/>
+    </linearGradient>
+    <linearGradient id="xmr" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6600"/>
+      <stop offset="100%" style="stop-color:#ff8c00"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="1000" fill="url(#bg)"/>
+
+  <text x="500" y="70" font-family="monospace" font-size="42" fill="white" text-anchor="middle" font-weight="bold">Support @masajinobe</text>
+  <text x="500" y="115" font-family="monospace" font-size="22" fill="white" text-anchor="middle">Choose network for donation</text>
+
+  <rect x="150" y="135" width="700" height="2" fill="white" opacity="0.15"/>
+
+  <g transform="translate(30, 155)">
+    <rect x="0" y="0" width="455" height="260" fill="#1a1a2e" rx="14" stroke="#444" stroke-width="1.5" opacity="0.95"/>
+    <image x="25" y="25" width="210" height="210" xlink:href="BTC.png"/>
+    <text x="290" y="80" font-family="monospace" font-size="34" fill="url(#btc)" font-weight="bold">₿TC</text>
+    <text x="290" y="115" font-family="monospace" font-size="20" fill="url(#btc)">Bitcoin</text>
+    <text x="290" y="142" font-family="monospace" font-size="15" fill="white">Network: <tspan fill="url(#btc)">BTC</tspan></text>
+
+    <rect x="485" y="0" width="455" height="260" fill="#1a1a2e" rx="14" stroke="#444" stroke-width="1.5" opacity="0.95"/>
+    <image x="510" y="25" width="210" height="210" xlink:href="GRAM.png"/>
+    <text x="775" y="80" font-family="monospace" font-size="34" fill="url(#ton)" font-weight="bold">⧫GRAM</text>
+    <text x="775" y="115" font-family="monospace" font-size="20" fill="url(#ton)">TON</text>
+    <text x="775" y="142" font-family="monospace" font-size="15" fill="white">Network: <tspan fill="url(#ton)">TON</tspan></text>
+  </g>
+
+  <g transform="translate(30, 445)">
+    <rect x="0" y="0" width="455" height="260" fill="#1a1a2e" rx="14" stroke="#444" stroke-width="1.5" opacity="0.95"/>
+    <image x="25" y="25" width="210" height="210" xlink:href="USDT_TON.png"/>
+    <text x="290" y="80" font-family="monospace" font-size="34" fill="url(#usdt)" font-weight="bold">$USDT</text>
+    <text x="290" y="115" font-family="monospace" font-size="20" fill="url(#usdt)">(TON)</text>
+    <text x="290" y="142" font-family="monospace" font-size="15" fill="white">Network: <tspan fill="url(#usdt)">TON</tspan></text>
+
+    <rect x="485" y="0" width="455" height="260" fill="#1a1a2e" rx="14" stroke="#444" stroke-width="1.5" opacity="0.95"/>
+    <image x="510" y="25" width="210" height="210" xlink:href="USDT_TRC20.png"/>
+    <text x="775" y="80" font-family="monospace" font-size="34" fill="url(#tron)" font-weight="bold">$USDT</text>
+    <text x="775" y="115" font-family="monospace" font-size="20" fill="url(#tron)">(TRC-20)</text>
+    <text x="775" y="142" font-family="monospace" font-size="15" fill="white">Network: <tspan fill="url(#tron)">TRON</tspan></text>
+  </g>
+
+  <g transform="translate(30, 735)">
+    <rect x="0" y="0" width="455" height="220" fill="#1a1a2e" rx="14" stroke="#444" stroke-width="1.5" opacity="0.95"/>
+    <image x="25" y="15" width="190" height="190" xlink:href="USDT_ERC20.png"/>
+    <text x="280" y="75" font-family="monospace" font-size="34" fill="url(#eth)" font-weight="bold">$USDT</text>
+    <text x="280" y="110" font-family="monospace" font-size="20" fill="url(#eth)">(ERC-20)</text>
+    <text x="280" y="137" font-family="monospace" font-size="15" fill="white">Network: <tspan fill="url(#eth)">ETH</tspan></text>
+
+    <rect x="485" y="0" width="455" height="220" fill="#1a1a2e" rx="14" stroke="#444" stroke-width="1.5" opacity="0.95"/>
+    <image x="510" y="15" width="190" height="190" xlink:href="XMR.png"/>
+    <text x="760" y="75" font-family="monospace" font-size="34" fill="url(#xmr)" font-weight="bold">ɱXMR</text>
+    <text x="760" y="110" font-family="monospace" font-size="20" fill="url(#xmr)">Monero</text>
+    <text x="760" y="137" font-family="monospace" font-size="15" fill="white">Network: <tspan fill="url(#xmr)">XMR</tspan></text>
+  </g>
+
+  <text x="500" y="985" font-family="monospace" font-size="20" fill="white" opacity="0.6" text-anchor="middle">Scan QR code to donate • Check network before sending</text>
+</svg>
